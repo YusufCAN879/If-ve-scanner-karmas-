@@ -1,0 +1,17 @@
+public class sinav {
+    public static void main(String[] args) {
+
+int toplam=0;
+int sayiadeti=0;
+for (int i=5;i<=30;i++) {
+
+    if (i % 2 == 0) {
+        toplam = toplam + i;
+        sayiadeti++;
+    }
+    System.out.println(toplam);
+}
+        System.out.println("ORTALAMA:"+(toplam/sayiadeti));
+
+    }
+}
